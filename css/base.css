@@ -6,6 +6,7 @@
 nav {
     background-color: #f48fb1;
 }
+
 nav .brand-logo {
     position: absolute;
     color: #fff;
@@ -25,18 +26,46 @@ nav ul a {
     cursor: pointer;
     padding-right: 35px;
 }
+
 /*Navbar Styles End*/
 
+/*===================*/
 /*Prelogin Home Body*/
 .prelogin-landing {
     width: 100%;
     height: 98.5vh;
     background-image: url(../imgs/stock-couple-3.jpg);
-    background-size: contain;
-    
+    background-size: cover;
 }
 
 .prelogin-landing-header-text {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    color: whitesmoke;
+    padding-top: 20%;
 }
+
+/*Benefits Section*/
+.prelogin-landing-benefits-blocks-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.benefits-photo {
+    width: 325px !important;
+    height: 250px !important;
+}
+
+.card {
+    margin-left: 0.75%;
+    margin-right: 0.75%;
+}
+
+/*Benefits Section Ends */
+
 /*Prelogin Home Body end*/
+/*======================*/

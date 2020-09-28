@@ -1,7 +1,28 @@
 /*Font imports*/
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&family=Great+Vibes&family=Playfair+Display&display=swap');
 /*Font imports end */
 
+/*Font Overrides Start*/
+h1,h2,h3,h4,h5,h6,a {
+    font-family: 'David Libre';
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: 'Playfair Display';
+    margin-top:0px;
+}
+
+.landing-header-h1 {
+    font-family: 'Great Vibes';
+    font-size: 125px;
+}
+
+.landing-header-p {
+    font-size: 35px;
+}
+
+/*Font Overrides End*/
 /*Navbar Styles*/
 nav {
     background-color: #f48fb1;
@@ -39,12 +60,14 @@ nav ul a {
 }
 
 .prelogin-landing-header-text {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
     color: whitesmoke;
     padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /*Benefits Section*/
@@ -69,3 +92,15 @@ nav ul a {
 
 /*Prelogin Home Body end*/
 /*======================*/
+
+/*Footer start*/
+.page-footer {
+    padding-top: 20px;
+    color: #fff;
+    background-color: #f48fb1;
+}
+.page-footer .white-text {
+    font-family: 'Great Vibes';
+    font-size: 2.5rem;
+}
+/*Footer Ends*/

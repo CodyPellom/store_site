@@ -2,13 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&family=Great+Vibes&family=Playfair+Display&display=swap');
 /*Font imports end */
 
-/*Color Section Start*/
-/*Light-Pink: #fce4ec
-/*Regular-Pink: #f06292
-/*Seafoam-Blue: #73e8ff
-/*Seafoam-Green: #42ffc1
-/*Purple: #ab47bc
-/*Black: #161616
+/*Color Section Starts*/
+.light-pink {
+    color: #fce4ec;
+}
+.regular-pink {
+    color: #f06292;
+}
+.seafoam-green {
+    color: #42ffc1;
+}
+.seafoam-blue {
+    color: #73e8ff;
+}
+.purple {
+    color: #ab47bc;
+}
+.black {
+    color: #161616;
+    background-color: transparent !important;
+}
+.white {
+    color: #ffff;
+}
+/*Color Section End*/
+
 
 /*Font Overrides Start*/
 h1,h2,h3,h4,h5,h6,a {
@@ -20,6 +38,10 @@ h1,h2,h3,h4,h5,h6,a {
 p {
     font-family: 'Playfair Display';
     color: #161616;
+}
+
+.text-align {
+    text-align: center;
 }
 
 .landing-header-h1 {
@@ -49,9 +71,11 @@ p {
 
 .custom-column {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
 }
@@ -134,7 +158,20 @@ nav ul a {
 }
 
 .homepage-signup-text-section {
-    
+
+}
+
+.homepage-signup-h1 {
+    font-family: 'Great Vibes';
+    font-size: 75px;
+    color: #161616;
+}
+
+.heart-png {
+    width: 5vw;
+    height: 5vw;
+    margin-top: 50px;
+    margin-bottom: -15px;
 }
 /*Homepage Signup Section end*/
 

@@ -15,10 +15,10 @@
 .seafoam-blue {
     color: #73e8ff;
 }
-.purple {
+.custom-purple {
     color: #ab47bc;
 }
-.black {
+.custom-black {
     color: #161616;
     background-color: transparent !important;
 }
@@ -38,6 +38,10 @@ h1,h2,h3,h4,h5,h6,a {
 p {
     font-family: 'Playfair Display';
     color: #161616;
+}
+
+.great-vibes {
+    font-family: 'Great Vibes';
 }
 
 .text-align {
@@ -60,6 +64,16 @@ p {
 
 /*Flex Styles Start*/
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . ."
+      ". . .";
+  }
+
 .custom-row {
     display: flex;
     flex-direction: row;
@@ -67,6 +81,14 @@ p {
     align-content: center;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
+}
+
+.custom-row-light-pink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: #fce4ec;
 }
 
 .custom-column {
@@ -83,6 +105,7 @@ p {
 /*Navbar Styles*/
 nav {
     background-color: #f06292;
+    padding-top: 0px;
 }
 
 nav .brand-logo {
@@ -167,13 +190,43 @@ nav ul a {
     color: #161616;
 }
 
+.homepage-signup-p {
+    margin-top: -0.25vw;
+}
+
 .heart-png {
     width: 5vw;
     height: 5vw;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: -15px;
 }
 /*Homepage Signup Section end*/
+
+/*Users Examples Section Starts*/
+.users-example-section {
+    width: 100%;
+    height: 50vw;
+}
+
+.stock-circle {
+    width: 5vw;
+    height: 5vw;
+    margin-right: 50px;
+}
+
+.user-example-profile-text-p {
+    font-size: 12px;
+}
+
+.user-example-profile-text-h6 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.example-user-text-col {
+    margin-left: 0.5vw;
+}
+/*Users Examples Section Ends*/
 
 /*Prelogin Home Body end*/
 /*======================*/

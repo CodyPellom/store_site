@@ -2,30 +2,63 @@
 @import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&family=Great+Vibes&family=Playfair+Display&display=swap');
 /*Font imports end */
 
+/*Color Section Start*/
+/*Light-Pink: #fce4ec
+/*Regular-Pink: #f06292
+/*Seafoam-Blue: #73e8ff
+/*Seafoam-Green: #42ffc1
+/*Purple: #ab47bc
+/*Black: #161616
+
 /*Font Overrides Start*/
 h1,h2,h3,h4,h5,h6,a {
     font-family: 'David Libre';
     margin-bottom: 0px;
+    color: #161616;
 }
 
 p {
     font-family: 'Playfair Display';
-    margin-top:0px;
+    color: #161616;
 }
 
 .landing-header-h1 {
     font-family: 'Great Vibes';
     font-size: 125px;
+    color: #f06292;
 }
 
 .landing-header-p {
     font-size: 35px;
+    color: #fff;
+    margin-top: -2.5vw;
 }
 
 /*Font Overrides End*/
+
+/*Flex Styles Start*/
+
+.custom-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.custom-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+/*Flex Styles End*/
 /*Navbar Styles*/
 nav {
-    background-color: #f48fb1;
+    background-color: #f06292;
 }
 
 nav .brand-logo {
@@ -41,7 +74,8 @@ nav ul a {
     -webkit-transition: background-color .3s;
     transition: background-color .3s;
     font-size: 1.2rem;
-    color: #fff;
+    /* color: #42ffc1; */
+    color: white;
     display: block;
     padding: 0 15px;
     cursor: pointer;
@@ -73,10 +107,12 @@ nav ul a {
 /*Benefits Section*/
 .prelogin-landing-benefits-blocks-section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
+    text-align: center;
 }
+
 
 .benefits-photo {
     width: 325px !important;
@@ -89,6 +125,18 @@ nav ul a {
 }
 
 /*Benefits Section Ends */
+
+/*Homepage Signup Section Start*/
+.homepage-signup-section  {
+    width: 100%;
+    height: 50vw;
+    background-color: #fce4ec;
+}
+
+.homepage-signup-text-section {
+    
+}
+/*Homepage Signup Section end*/
 
 /*Prelogin Home Body end*/
 /*======================*/

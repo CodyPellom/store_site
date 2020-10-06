@@ -12,19 +12,35 @@
 .seafoam-green {
     color: #42ffc1;
 }
+.light-forest-green {
+    color: #8BC34A;
+}
 .seafoam-blue {
     color: #73e8ff;
+}
+.light-blue {
+    color: #B3E5FC;
 }
 .custom-purple {
     color: #ab47bc;
 }
 .custom-black {
-    color: #161616;
+    color: #212121;
     background-color: transparent !important;
 }
-.white {
+.custom-white {
     color: #ffff;
 }
+.custom-white-2 {
+    color: #F5F5F5;
+}
+.custom-grey {
+    color: #9E9E9E;
+}
+.light-grey {
+    color: #BDBDBD;
+}
+
 /*Color Section End*/
 
 
@@ -205,13 +221,16 @@ nav ul a {
 /*Users Examples Section Starts*/
 .users-example-section {
     width: 100%;
-    height: 50vw;
+    height: 35vw;
+    background-color: #F5F5F5;
+    margin: 2vw 0vw 2vw 0vw;
+    padding: 2vw 0vw 2vw 0vw;
 }
 
 .stock-circle {
     width: 5vw;
     height: 5vw;
-    margin-right: 50px;
+    margin-right: 25px;
 }
 
 .user-example-profile-text-p {
@@ -225,6 +244,12 @@ nav ul a {
 
 .example-user-text-col {
     margin-left: 0.5vw;
+}
+
+.example-user-section-main-text {
+    grid: unset;
+    background-color: #F5F5F5;
+    
 }
 /*Users Examples Section Ends*/
 

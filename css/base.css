@@ -1,6 +1,5 @@
 /*Font imports*/
-@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@500&family=Great+Vibes&family=Playfair+Display&display=swap');
-/*Font imports end */
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300&family=Staatliches&display=swap');/*Font imports end */
 
 /*Color Section Starts*/
 .light-pink {
@@ -24,6 +23,12 @@
 .custom-purple {
     color: #ab47bc;
 }
+.lavender {
+    color: #D1C4E9;
+}
+.reasonable-purple {
+    color: #E1BEE7;
+}
 .custom-black {
     color: #212121;
     background-color: transparent !important;
@@ -46,18 +51,18 @@
 
 /*Font Overrides Start*/
 h1,h2,h3,h4,h5,h6,a {
-    font-family: 'David Libre';
+    font-family: 'Staatliches';
     margin-bottom: 0px;
     color: #161616;
 }
 
 p {
-    font-family: 'Playfair Display';
+    font-family: 'Commissioner';
     color: #161616;
 }
 
-.great-vibes {
-    font-family: 'Great Vibes';
+.staatliches {
+    font-family: 'Staatliches';
 }
 
 .text-align {
@@ -65,9 +70,9 @@ p {
 }
 
 .landing-header-h1 {
-    font-family: 'Great Vibes';
+    font-family: 'Staatliches';
     font-size: 125px;
-    color: #f06292;
+    color: #D1C4E9;
 }
 
 .landing-header-p {
@@ -120,7 +125,7 @@ p {
 /*Flex Styles End*/
 /*Navbar Styles*/
 nav {
-    background-color: #f06292;
+    background-color: #D1C4E9;
     padding-top: 0px;
 }
 
@@ -130,7 +135,7 @@ nav .brand-logo {
     display: inline-block;
     font-size: 2.5rem;
     padding-left: 50px;
-    font-family: 'Great Vibes';
+    font-family: 'Staatliches';
 }
 
 nav ul a {
@@ -152,7 +157,7 @@ nav ul a {
 .prelogin-landing {
     width: 100%;
     height: 98.5vh;
-    background-image: url(../imgs/stock-couple-3.jpg);
+    background-image: url('../imgs/bag_bg_1.png');
     background-size: cover;
 }
 
@@ -201,7 +206,7 @@ nav ul a {
 }
 
 .homepage-signup-h1 {
-    font-family: 'Great Vibes';
+    font-family: 'Staatliches';
     font-size: 75px;
     color: #161616;
 }
@@ -259,11 +264,11 @@ nav ul a {
 /*Footer start*/
 .page-footer {
     padding-top: 20px;
-    color: #fff;
-    background-color: #f48fb1;
+    color: rgb(165, 165, 165);
+    background-color: #E1BEE7;
 }
 .page-footer .white-text {
-    font-family: 'Great Vibes';
+    font-family: 'Staatliches';
     font-size: 2.5rem;
 }
 /*Footer Ends*/

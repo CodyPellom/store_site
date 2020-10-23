@@ -6,16 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Store Site</title>
   <link rel="icon" href="../imgs/ss.ico">
-  <link rel="stylesheet" href="../materialize/css/materialize.min.css">
   <link rel="stylesheet" href="../css/base.css">
   <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../materialize/css/materialize.min.css">
   <script src="../materialize/js/materialize.min.js"></script>
 </head>
 
 <body>
 
   <div class="prelogin-navbar">
-    <nav id="navBar">
+    <nav id="navBar" class="transparent">
       <div class="nav-wrapper" id="navWrapper">
         <a href="#" class="brand-logo" id="brandLogo">store site</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -23,12 +23,21 @@
           <li><a href="./login.html">clothes</a></li>
           <li><a href="./login.html">bags</a></li>
           <li><a href="./login.html">lifestyle</a></li>
-          <li><a href="./about.html">about</a></li>
           <li><a href="./login.html">login</a></li>
-          <!-- <li><a href="collapsible.html">JavaScript</a></li> -->
+          <li><a id="moreButton" onclick="widgetsPopout()">more</a></li>
         </ul>
       </div>
     </nav>
+    <div class="widget-section custom-row" id="widgetSection">
+      <div class="custom-column">
+        <a href="./login.html" class="widget-item">jewlery</a>
+        <a href="./login.html" class="widget-item">clothes</a>
+        <a href="./login.html" class="widget-item">bags</a>
+        <a href="./login.html" class="widget-item">lifestyle</a>
+        <a href="./login.html" class="widget-item">login</a>
+        <a id="moreButton" class="widget-item" onclick="widgetsPopout()">more</a>
+      </div>
+      </div>
   </div>
 
   <div class="prelogin-landing" id="preloginLanding">

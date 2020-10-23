@@ -51,7 +51,9 @@
 
 /*Font Overrides Start*/
 h1,h2,h3,h4,h5,h6,a {
-    font-family: 'Staatliches';
+    /* font-family: 'Staatliches'; */
+    font-family: 'Commissioner';
+    font-weight: bold;
     margin-bottom: 0px;
     color: #161616;
 }
@@ -62,7 +64,9 @@ p {
 }
 
 .staatliches {
-    font-family: 'Staatliches';
+    /* font-family: 'Staatliches'; */
+    font-family: 'Commissioner';
+    font-weight: bold;
 }
 
 .text-align {
@@ -70,7 +74,8 @@ p {
 }
 
 .landing-header-h1 {
-    font-family: 'Staatliches';
+    font-family: 'Commissioner';
+    font-weight: bold;
     font-size: 125px;
     color: #D1C4E9;
 }
@@ -135,8 +140,8 @@ nav .brand-logo {
     display: inline-block;
     font-size: 2.5rem;
     padding-left: 50px;
-    font-family: 'Staatliches';
-}
+    font-family: 'Commissioner';
+    font-weight: bold;}
 
 nav ul a {
     -webkit-transition: background-color .3s;
@@ -183,8 +188,8 @@ nav ul a {
 
 
 .benefits-photo {
-    width: 325px !important;
-    height: 250px !important;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .card {
@@ -202,7 +207,7 @@ nav ul a {
 }
 
 .homepage-signup-text-section {
-
+    color: #ab47bc;
 }
 
 .homepage-signup-h1 {
@@ -224,12 +229,13 @@ nav ul a {
 /*Homepage Signup Section end*/
 
 /*Users Examples Section Starts*/
-.users-example-section {
+.product-landing-section {
     width: 100%;
     height: 35vw;
     background-color: #F5F5F5;
-    margin: 2vw 0vw 2vw 0vw;
-    padding: 2vw 0vw 2vw 0vw;
+    background-image: url('../imgs/19_GucciPopularClassicBags.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .stock-circle {
@@ -252,8 +258,7 @@ nav ul a {
 }
 
 .example-user-section-main-text {
-    grid: unset;
-    background-color: #F5F5F5;
+    color: 
     
 }
 /*Users Examples Section Ends*/
@@ -268,7 +273,8 @@ nav ul a {
     background-color: #E1BEE7;
 }
 .page-footer .white-text {
-    font-family: 'Staatliches';
+    font-family: 'Commissioner';
+    font-weight: bold;
     font-size: 2.5rem;
 }
 /*Footer Ends*/

@@ -157,7 +157,7 @@ nav {
     /* background-color: #D1C4E9; */
     background-color: transparent;
     padding-top: 0px;
-    transition: all 1s;
+    transition: all 0.5s;
     position: fixed;
     top: 0;
     width: 100%;
@@ -196,14 +196,14 @@ nav ul a {
     background-color: transparent;
     top: 45px;
     position: fixed;
-    transition: all 1s;
+    transition: all 0.15s;
 }
 
 .widget-item {
     margin-left: 1rem;
     margin-right: 1rem;
     text-decoration: none;
-    color: #fff;
+    color: transparent;
 }
 
 /*Navbar Styles End*/
@@ -213,7 +213,7 @@ nav ul a {
 .prelogin-landing {
     width: 100%;
     height: 98.5vh;
-    background-image: url('../imgs/bag_bg_1.png');
+    background-image: url('../imgs/HermesBag-01.png');
     background-size: cover;
 }
 

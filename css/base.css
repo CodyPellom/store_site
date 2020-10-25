@@ -1,12 +1,18 @@
 /*Font imports*/
-@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300&family=Staatliches&display=swap');/*Font imports end */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Maven+Pro&family=Syne+Mono&display=swap');
+/*Maven Pro is for sentances
+  Syne Mono is header
+  Concert One are links*/
 
 /*Color Section Starts*/
 .light-pink {
     color: #fce4ec;
 }
 .regular-pink {
-    color: #f06292;
+    color: #ff4081;
+}
+.material-amber {
+    color: #ffa000;
 }
 .seafoam-green {
     color: #42ffc1;
@@ -50,23 +56,22 @@
 
 
 /*Font Overrides Start*/
-h1,h2,h3,h4,h5,h6,a {
+h1,h2,h3,h4,h5,h6 {
     /* font-family: 'Staatliches'; */
-    font-family: 'Commissioner';
+    font-family: 'Syne Mono';
     font-weight: bold;
     margin-bottom: 0px;
     color: #161616;
 }
 
-p {
-    font-family: 'Commissioner';
-    color: #161616;
+a {
+    font-family: 'Concert One';
+    font-size: 16px;
 }
 
-.staatliches {
-    /* font-family: 'Staatliches'; */
-    font-family: 'Commissioner';
-    font-weight: bold;
+p {
+    font-family: 'Maven Pro';
+    color: #161616;
 }
 
 .text-align {
@@ -74,42 +79,15 @@ p {
 }
 
 .landing-header-h1 {
-    font-family: 'Commissioner';
     font-weight: bold;
     font-size: 125px;
-    color: #D1C4E9;
 }
 
 .landing-header-p {
-    font-size: 35px;
+    font-size: 30px;
     color: #fff;
     margin-top: -2.5vw;
 }
-
-.material-icons {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;  /* Preferred icon size */
-    display: inline-block;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-  
-    /* Support for all WebKit browsers. */
-    -webkit-font-smoothing: antialiased;
-    /* Support for Safari and Chrome. */
-    text-rendering: optimizeLegibility;
-  
-    /* Support for Firefox. */
-    -moz-osx-font-smoothing: grayscale;
-  
-    /* Support for IE. */
-    font-feature-settings: 'liga';
-  }
 
 /*Font Overrides End*/
 
@@ -148,8 +126,6 @@ p {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
 }
 /*Flex Styles End*/
 /*Navbar Styles*/
@@ -172,7 +148,7 @@ nav .brand-logo {
     display: inline-block;
     font-size: 2.5rem;
     padding-left: 20px !important;
-    font-family: 'Commissioner';
+    font-family: 'Syne Mono';
     font-weight: bold;
     transition: color 1s;
 
@@ -213,7 +189,7 @@ nav ul a {
 .prelogin-landing {
     width: 100%;
     height: 98.5vh;
-    background-image: url('../imgs/HermesBag-01.png');
+    background-image: url('../imgs/bag_bg_3.png');
     background-size: cover;
 }
 
@@ -230,11 +206,9 @@ nav ul a {
 
 /*Benefits Section*/
 .prelogin-landing-benefits-blocks-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+background-color: #42ffc1;
+padding-top: 5vw;
+padding-bottom: 5vw;
 }
 
 
@@ -244,8 +218,8 @@ nav ul a {
 }
 
 .card {
-    margin-left: 0.75%;
-    margin-right: 0.75%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /*Benefits Section Ends */

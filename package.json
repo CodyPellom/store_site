@@ -1,0 +1,24 @@
+{
+  "name": "storesite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "base.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodyPellom/transamourous.git"
+  },
+  "author": "Cody Pellom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodyPellom/transamourous/issues"
+  },
+  "homepage": "https://github.com/CodyPellom/transamourous#readme",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "node": "^15.0.1",
+    "requirejs": "^2.3.6"
+  }
+}

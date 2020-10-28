@@ -1,6 +1,7 @@
 function init() {
     var me = this;
     me.navbarFadeInOnScroll();
+    me.shiftBgColor();
 };
 
 function navbarFadeInOnScroll() {
@@ -39,6 +40,37 @@ function widgetsPopout() {
     // for(var i = 0; i < wItems.length; i++) {
     //     wItems[i].style.color = 'transparent';
     // }
+}
+
+
+function shiftBgColor() {
+    var navBar = document.getElementById('navBar').style,
+        f = false,
+        c1 = '#ac9dc8',
+        c2 = '#D1C4E9',
+        c3 = '#42ffc1',
+        transparent = 'transparent',
+        intervalSec = 3500;
+
+    window.onscroll() = function () {
+        var scrollPosition = window.scrollY;
+        if (scrollPosition >= 1) {
+            setInterval(function () {
+                var f = !f;
+                navBar.backgroundColor = f ? c2 : c3;
+
+            }, intervalSec);
+        }
+        else if (scrollPosition === 0) {
+            intervalSec = 0;
+            navBar.backgroundColor = transparent;
+            setInterval(function () {
+               var f = !f;
+                navBar.backgroundColor = f ? c2 : c3;
+
+            }, intervalSec);
+        }
+    }
 }
 
 init();

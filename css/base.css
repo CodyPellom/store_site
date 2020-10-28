@@ -38,6 +38,9 @@
 .lavender {
     color: #D1C4E9;
 }
+.darker-lavender {
+    color: #ac9dc8;
+}
 .light-indigo {
     color: #e8eaf6;
 }
@@ -177,7 +180,7 @@ nav {
     /* background-color: #D1C4E9; */
     background-color: transparent;
     padding-top: 0px;
-    transition: all 0.5s;
+    transition: all 2.5s;
     position: fixed;
     top: 0;
     width: 100%;

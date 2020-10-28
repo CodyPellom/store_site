@@ -343,11 +343,37 @@ nav ul a {
 }
 
 .example-user-section-main-text {
-    color: 
     
 }
 /*Users Examples Section Ends*/
 
+
+/*Location Teaser Section Starts*/
+.location-teaser-section {
+    background-image: url('../imgs/storefront-vhs-2.png');
+    width: 100%;
+    height: 75vh;
+    background-position: center;
+    background-size: contain;
+}
+
+.location-teaser-header {
+font-size: 36px;
+background-color: #212121;
+color: #ffffff;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+
+.location-teaser-subheader {
+    font-family: 'Vampiro One';
+    background-color: #ffffff;
+    color: #212121;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 7.5vw;
+}
+/*Location Teaser Section Ends*/
 /*Prelogin Home Body end*/
 /*======================*/
 

@@ -1,0 +1,19 @@
+{
+  "name": "storesite",
+  "version": "1.0.0",
+  "description": "storesite bones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodyPellom/transamourous.git"
+  },
+  "author": "Cody Pellom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodyPellom/transamourous/issues"
+  },
+  "homepage": "https://github.com/CodyPellom/transamourous#readme"
+}

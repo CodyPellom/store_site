@@ -54,6 +54,42 @@
 
 /*Color Section End*/
 
+/*Animated text color start*/
+#shadowBox {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Black w/opacity/see-through */
+    border: 3px solid;
+}
+
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    font-family: monospace;
+    letter-spacing: 5px;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+/*Animated text color ends*/
+
 
 /*Font Overrides Start*/
 h1,h2,h3,h4,h5,h6 {
@@ -206,7 +242,7 @@ nav ul a {
 
 /*Benefits Section*/
 .prelogin-landing-benefits-blocks-section {
-background-color: #42ffc1;
+background-color: #B3E5FC;
 padding-top: 5vw;
 padding-bottom: 5vw;
 }
@@ -256,9 +292,9 @@ padding-bottom: 5vw;
 /*Users Examples Section Starts*/
 .product-landing-section {
     width: 100%;
-    height: 35vw;
+    height: 100vh;
     background-color: #F5F5F5;
-    background-image: url('../imgs/19_GucciPopularClassicBags.jpg');
+    background-image: url('../imgs/bag_bg_1.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -303,3 +339,4 @@ padding-bottom: 5vw;
     font-size: 2.5rem;
 }
 /*Footer Ends*/
+

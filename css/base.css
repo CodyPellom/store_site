@@ -4,7 +4,7 @@
   Syne Mono is header
   Concert One are links*/
 
-/*Color Section Starts*/
+/*Color Palletes Starts*/
 .light-pink {
     color: #fce4ec;
 }
@@ -14,17 +14,23 @@
 .material-amber {
     color: #ffa000;
 }
+.creamy-orange {
+    color: #ffccbc;
+}
 .seafoam-green {
     color: #42ffc1;
 }
 .light-forest-green {
     color: #8BC34A;
 }
+.bright-cyan {
+    color: #88ffff;
+}
 .seafoam-blue {
     color: #73e8ff;
 }
 .light-blue {
-    color: #B3E5FC;
+    color: #b3e5fc;
 }
 .custom-purple {
     color: #ab47bc;
@@ -32,12 +38,14 @@
 .lavender {
     color: #D1C4E9;
 }
+.light-indigo {
+    color: #e8eaf6;
+}
 .reasonable-purple {
     color: #E1BEE7;
 }
 .custom-black {
     color: #212121;
-    background-color: transparent !important;
 }
 .custom-white {
     color: #ffff;
@@ -52,7 +60,7 @@
     color: #BDBDBD;
 }
 
-/*Color Section End*/
+/*Color Palletes End*/
 
 /*Animated text color start*/
 #shadowBox {
@@ -71,7 +79,7 @@
     letter-spacing: 5px;
 }
 .rainbow_text_animated {
-    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    background: linear-gradient(to right, #ab47bc, #42ffc1, #73e8ff , #42ffc1, #fce4ec, #ff4081, #ffa000);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -240,25 +248,41 @@ nav ul a {
     text-align: center;
 }
 
-/*Benefits Section*/
-.prelogin-landing-benefits-blocks-section {
-background-color: #B3E5FC;
-padding-top: 5vw;
-padding-bottom: 5vw;
+/*Teaser Products Section Starts*/
+
+.teaser-products-section {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-
-.benefits-photo {
-    width: 100% !important;
-    height: 100% !important;
+.teaser-product-card {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 375px;
+    height: 400px;
+    border: solid 0.25px #212121;
 }
 
-.card {
-    margin-left: 10px;
-    margin-right: 10px;
+.teaser-product-card-img {
+    width: 355px;
+    height: 325px;
 }
 
-/*Benefits Section Ends */
+.t-card-one {
+
+}
+
+.t-card-two {
+
+}
+
+.t-card-three {
+
+}
+
+/*Teaser Products Section Ends */
 
 /*Homepage Signup Section Start*/
 .homepage-signup-section  {
@@ -331,7 +355,7 @@ padding-bottom: 5vw;
 .page-footer {
     padding-top: 20px;
     color: rgb(165, 165, 165);
-    background-color: #E1BEE7;
+    background-color: #D1C4E9 !important;
 }
 .page-footer .white-text {
     font-family: 'Commissioner';

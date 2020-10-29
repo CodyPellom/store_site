@@ -62,7 +62,9 @@
 .light-grey {
     color: #BDBDBD;
 }
-
+.background-black {
+    background-color: #212121;
+}
 /*Color Palletes End*/
 
 /*Animated text color start*/
@@ -89,7 +91,14 @@
     animation: rainbow_animation 6s ease-in-out infinite;
     background-size: 400% 100%;
 }
-
+.rainbow_text_animated_two {
+    background: linear-gradient(to right, #ffa000,  #ff4081, #fce4ec , #73e8ff, #42ffc1 , #42ffc1,  #ab47bc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
 @keyframes rainbow_animation {
     0%,100% {
         background-position: 0 0;
@@ -286,70 +295,17 @@ nav ul a {
 }
 
 /*Teaser Products Section Ends */
-
-/*Homepage Signup Section Start*/
-.homepage-signup-section  {
-    width: 100%;
-    height: 50vw;
-    background-color: #fce4ec;
-}
-
-.homepage-signup-text-section {
-    color: #ab47bc;
-}
-
-.homepage-signup-h1 {
-    font-family: 'Staatliches';
-    font-size: 75px;
-    color: #161616;
-}
-
-.homepage-signup-p {
-    margin-top: -0.25vw;
-}
-
-.heart-png {
-    width: 5vw;
-    height: 5vw;
-    margin-top: 100px;
-    margin-bottom: -15px;
-}
-/*Homepage Signup Section end*/
-
-/*Users Examples Section Starts*/
 .product-landing-section {
     width: 100%;
     height: 100vh;
-    background-color: #F5F5F5;
     background-image: url('../imgs/bag_bg_1.png');
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.stock-circle {
-    width: 5vw;
-    height: 5vw;
-    margin-right: 25px;
+.product-landing-subheader {
+    font-size: 60px;
 }
-
-.user-example-profile-text-p {
-    font-size: 12px;
-}
-
-.user-example-profile-text-h6 {
-    font-size: 16px;
-    font-weight: bold;
-}
-
-.example-user-text-col {
-    margin-left: 0.5vw;
-}
-
-.example-user-section-main-text {
-    
-}
-/*Users Examples Section Ends*/
-
 
 /*Location Teaser Section Starts*/
 .location-teaser-section {
@@ -366,15 +322,25 @@ background-color: #212121;
 color: #ffffff;
 margin-bottom: 0;
 padding-bottom: 0;
+margin-top: 0;
 }
 
 .location-teaser-subheader {
     font-family: 'Vampiro One';
-    background-color: #ffffff;
-    color: #212121;
     margin-top: 0;
     padding-top: 0;
     font-size: 7.5vw;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.location-teaser-subheader-two {
+    font-size: 24px;
+    background-color: #ff4081;
+    color: #212121;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 0;
 }
 /*Location Teaser Section Ends*/
 /*Prelogin Home Body end*/

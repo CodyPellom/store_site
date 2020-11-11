@@ -1,0 +1,12 @@
+.product-page-lander {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+}
+
+.product-display-section {
+    background-color: #ffa000;
+    width: 100%;
+    height: 75vh;
+}

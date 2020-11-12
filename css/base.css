@@ -82,13 +82,6 @@
     border: 3px solid;
 }
 
-.rainbow {
-    text-align: center;
-    text-decoration: underline;
-    font-size: 32px;
-    font-family: monospace;
-    letter-spacing: 5px;
-}
 .rainbow_text_animated {
     background: linear-gradient(to right, #ab47bc, #42ffc1, #73e8ff , #42ffc1, #fce4ec, #ff4081, #ffa000);
     -webkit-background-clip: text;
@@ -104,6 +97,14 @@
     color: transparent;
     animation: rainbow_animation 6s ease-in-out infinite;
     background-size: 400% 100%;
+}
+.rainbow-link {
+    background: linear-gradient(to right, #9afff7,  #69fdf1, #45cbec , #3ab6fd, #7ef0ff , #42ffc1,  #34a3e4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 10s ease-in-out infinite;
+    background-size: 200% 50%;
 }
 @keyframes rainbow_animation {
     0%,100% {
@@ -127,8 +128,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a {
-    font-family: 'Concert One';
-    font-size: 16px;
+    font-family: 'Syne Mono';
+    font-size: 18px;
+    font-weight: bolder;
 }
 
 p {
@@ -151,6 +153,9 @@ p {
     margin-top: -2.5vw;
 }
 
+.btn {
+background-color: #ffa000 !important;
+} 
 /*Font Overrides End*/
 
 /*Flex Styles Start*/

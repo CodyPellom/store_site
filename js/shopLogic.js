@@ -1,3 +1,33 @@
+/**Global vars start */
+var formCart = document.getElementById( "#shopping-cart" ); // Shopping cart form
+var checkoutCart = document.getElementById( "#checkout-cart" ); // Checkout form cart
+var checkoutOrderForm = document.getElementById( "#checkout-order-form" ); // Checkout user details form
+var shipping = document.getElementById( "#sshipping" ); // Element that displays the shipping rates
+var subTotal = document.getElementById( "#stotal" ); // Element that displays the subtotal charges
+var shoppingCartActions = document.getElementById( "#shopping-cart-actions" ); // Cart actions links
+var updateCartBtn = document.getElementById( "#update-cart" ); // Update cart button
+var emptyCartBtn = document.getElementById( "#empty-cart" ); // Empty cart button
+var userDetails = document.getElementById( "#user-details-content" ); // Element that displays the user information
+var paypalForm = document.getElementById( "#paypal-form" ); // PayPal form
+var currency = "&euro;"; // HTML entity of the currency to be displayed in the layout
+var currencyString = "€"; // Currency symbol as textual string
+var paypalCurrency = "EUR"; // PayPal's currency code
+var paypalBusinessEmail = "yourbusiness@email.com"; // Your Business PayPal's account email address
+var paypalURL = "https://www.sandbox.paypal.com/cgi-bin/webscr"; // The URL of the PayPal's form
+
+// Object containing patterns for form validation
+var requiredFields = {
+	expression: {
+		value: /^([\w-\.]+)@((?:[\w]+\.)+)([a-z]){2,4}$/
+	},
+	
+	str: {
+		value: ""
+	}
+	
+};
+/* Global Vars End*/
+
 
 		init: function() {
 		
@@ -11,35 +41,7 @@
 			
 			
 			this.$formAddToCart = this.$element.find( "form.add-to-cart" ); // Forms for adding items to the cart
-			var formCart = document.getElementById( "#shopping-cart" ); // Shopping cart form
-			var checkoutCart = document.getElementById( "#checkout-cart" ); // Checkout form cart
-			var checkoutOrderForm = document.getElementById( "#checkout-order-form" ); // Checkout user details form
-			var shipping = document.getElementById( "#sshipping" ); // Element that displays the shipping rates
-			var subTotal = document.getElementById( "#stotal" ); // Element that displays the subtotal charges
-			var shoppingCartActions = document.getElementById( "#shopping-cart-actions" ); // Cart actions links
-            var updateCartBtn = document.getElementById( "#update-cart" ); // Update cart button
-			var emptyCartBtn = document.getElementById( "#empty-cart" ); // Empty cart button
-			var userDetails = document.getElementById( "#user-details-content" ); // Element that displays the user information
-			var paypalForm = document.getElementById( "#paypal-form" ); // PayPal form
 			
-			
-			var currency = "&euro;"; // HTML entity of the currency to be displayed in the layout
-			var currencyString = "€"; // Currency symbol as textual string
-			var paypalCurrency = "EUR"; // PayPal's currency code
-			var paypalBusinessEmail = "yourbusiness@email.com"; // Your Business PayPal's account email address
-			var paypalURL = "https://www.sandbox.paypal.com/cgi-bin/webscr"; // The URL of the PayPal's form
-			
-			// Object containing patterns for form validation
-			var requiredFields = {
-				expression: {
-					value: /^([\w-\.]+)@((?:[\w]+\.)+)([a-z]){2,4}$/
-				},
-				
-				str: {
-					value: ""
-				}
-				
-			};
 			
 			// Method invocation
 			

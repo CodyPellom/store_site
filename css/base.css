@@ -216,6 +216,7 @@ background-color: #ffa000 !important;
 	align-items: center;
 	align-content: center;
 }
+
 /*Flex Styles End*/
 /*Navbar Styles*/
 nav {
@@ -392,3 +393,13 @@ margin-top: 0;
 }
 /*Footer Ends*/
 
+
+/*Credit Card Info*/
+
+.signupForm {
+    max-width: 55%;
+}
+
+.creditCardForm {
+    max-width: 55%;
+}

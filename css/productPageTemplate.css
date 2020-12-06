@@ -25,3 +25,33 @@
 .product-desc-subtext {
     text-align: center;
 }
+
+/* product display */
+.more-products-section {
+    background-image: url('../imgs/GI0V3q.png');
+    height: 100vh;
+}
+.more-pictures-window {
+    height: 50vh;
+    width: 100%;
+}
+
+.product-display-grid-row {
+    /*margin-top: 10%;*/
+}
+
+.product-display-grid-item {
+    width: 20vw;
+    height: 20vw;
+    margin-right: 2.5vw;
+    margin-left: 2.5vw;
+}
+
+.product-display-grid-item-picture {
+    width: 20vw;
+    height: 20vw;
+}
+
+#input-field-product-purchase {
+    max-width: 25vw;
+}

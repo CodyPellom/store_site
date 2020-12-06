@@ -155,6 +155,12 @@ p {
 
 .btn {
 background-color: #ffa000 !important;
+display: flex;
+justify-content: center;
+align-content: center;
+align-self: center;
+text-align: center;
+
 } 
 /*Font Overrides End*/
 
@@ -403,3 +409,4 @@ margin-top: 0;
 .creditCardForm {
     max-width: 55%;
 }
+
